@@ -6,10 +6,8 @@
     justify-content: center;
     height: 4.5rem;
     width: 100%;
-    background-color: #fff;
-    border-top: 10px solid #ffc861;
-    border-bottom: 2px solid #eee;
-    font-size: 11px;
+    background-color: #eb95c4;
+    font-size: 18px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
@@ -23,11 +21,11 @@
 }
 
 .nav-links a:active {
-    color: #dd72a6;
+    color: #009eee;
 }
 
 .nav-links a:hover {
-    color: #0281ae;
+    color: #009eee;
 }
 
 .nav-links a:visited {
@@ -37,7 +35,11 @@
 .menu {
     display: flex;
     gap: 2em;
-    font-size: 11px;
+    font-size: 18px;
+}
+
+.menu ul {
+    list-style: none;
 }
 
 .menu li:hover {
@@ -48,6 +50,7 @@
 
 .menu li {
     padding: .3125em .875em;
+    list-style: none;
 }
 
 /* Responsive Menu Start */
