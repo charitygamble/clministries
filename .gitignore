@@ -8,6 +8,7 @@ Thumbs.db
 .sass-cache
 .env
 .cache
+resources
 
 # Node Modules and Output
 node_modules
